@@ -29,9 +29,8 @@
 
         header {
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 30px;
             padding: 20px 0;
-            border-bottom: 3px solid var(--accent-color);
         }
 
         header h1 {
@@ -43,6 +42,32 @@
         header p {
             color: #666;
             font-size: 1.1rem;
+            margin-bottom: 25px;
+        }
+
+        /* Khung chứa ảnh tiến trình đồ họa */
+        .timeline-banner {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto 40px auto;
+            text-align: center;
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        .timeline-banner img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+
+        .image-caption {
+            font-size: 0.9rem;
+            color: #7f8c8d;
+            margin-top: 8px;
+            font-style: italic;
         }
 
         /* Giao diện Table cho Máy tính */
@@ -51,7 +76,7 @@
             background: var(--card-bg);
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            margin-bottom: 3px;
+            margin-bottom: 30px;
         }
 
         table {
@@ -161,6 +186,12 @@
         <p>Phân tích Nguyên nhân (Tiền đề & Động lực) và Kết quả (Biến đổi & Hệ quả)</p>
     </header>
 
+    <!-- SƠ ĐỒ TIẾN TRÌNH CÁC CUỘC CMCN -->
+    <div class="timeline-banner">
+        <img src="https://squarespace-cdn.com" alt="Sơ đồ tiến trình cách mạng công nghiệp">
+        <div class="image-caption">Sơ đồ tóm tắt đặc trưng cốt lõi của 4 làn sóng Cách mạng Công nghiệp trong lịch sử</div>
+    </div>
+
     <!-- HIỂN THỊ TRÊN MÁY TÍNH (TABLE) -->
     <div class="table-responsive">
         <table>
@@ -175,7 +206,7 @@
                 <!-- CMCN 1 -->
                 <tr>
                     <td>
-                        <span class="cmcn-title">CMCN Lần 1</span>
+                        <span class="cmcn-title">⚙️ CMCN Lần 1</span>
                         <span class="cmcn-time">Thế kỷ XVIII - XIX</span>
                     </td>
                     <td>
@@ -196,7 +227,7 @@
                 <!-- CMCN 2 -->
                 <tr>
                     <td>
-                        <span class="cmcn-title">CMCN Lần 2</span>
+                        <span class="cmcn-title">⚡ CMCN Lần 2</span>
                         <span class="cmcn-time">Cuối TK XIX - Đầu TK XX</span>
                     </td>
                     <td>
@@ -217,7 +248,7 @@
                 <!-- CMCN 3 -->
                 <tr>
                     <td>
-                        <span class="cmcn-title">CMCN Lần 3</span>
+                        <span class="cmcn-title">💻 CMCN Lần 3</span>
                         <span class="cmcn-time">Nửa sau TK XX</span>
                     </td>
                     <td>
@@ -238,19 +269,8 @@
                 <!-- CMCN 4 -->
                 <tr>
                     <td>
-                        <span class="cmcn-title">CMCN Lần 4</span>
+                        <span class="cmcn-title">🤖 CMCN Lần 4</span>
                         <span class="cmcn-time">Đầu TK XXI - Hiện tại</span>
                     </td>
                     <td>
                         <ul>
-                            <li><strong>Sự bùng nổ dữ liệu:</strong> Hệ thống Internet và thiết bị di động từ Lần 3 tạo ra lượng dữ liệu khổng lồ (Big Data) cần được tối ưu.</li>
-                            <li><strong>Sự hội tụ công nghệ:</strong> Ranh giới giữa Vật lý, Kỹ thuật số và Sinh học ngày càng mờ nhạt.</li>
-                            <li><strong>Đột phá cốt lõi:</strong> Trí tuệ nhân tạo (AI), Điện toán đám mây, IoT (Internet vạn vật), và Công nghệ sinh học.</li>
-                        </ul>
-                    </td>
-                    <td>
-                        <ul>
-                            <li><strong>Thông minh hóa & Số hóa toàn diện:</strong> Các nhà máy thông minh tự vận hành, robot tự học và tối ưu hóa quy trình.</li>
-                            <li><strong>Thay đổi hình thái lao động:</strong> Nhiều công việc truyền thống biến mất, xuất hiện các ngành nghề mới dựa trên dữ liệu.</li>
-                            <li><strong>Thách thức an ninh:</strong> Đặt ra các bài toán lớn về bảo mật thông tin, đạo đức AI và sự phân hóa giàu nghèo giữa các quốc gia làm chủ công nghệ và quốc gia đi sau.</li>
-                        </ul>
